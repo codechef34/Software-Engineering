@@ -1,0 +1,34 @@
+body {
+                padding: 0;
+                margin: 0;
+            }
+
+            #container {
+                width: 100%;
+                min-height: 100%;
+                position: relative;
+            }
+
+            #left, #right {
+                width: 50%;
+                height: 100%;
+                position: absolute;
+                z-index: -1;
+            }
+
+            #left {
+                left: 0;
+                background-color: navy;
+            }
+
+            #right {
+                right: 0;
+                background-color: maroon;
+            }
+
+            #content {
+                width: 512px;
+                height: 100%;
+                margin: 0 auto;
+                background-color: white;
+            }
