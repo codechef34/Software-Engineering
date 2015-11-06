@@ -1,0 +1,24 @@
+The project is implemented in java and requires jRE to be installed in the system for the application to work
+
+
+There are two main programs in the system
+1) Server.java in the server folder
+
+   This program should be executed to create a socket server in the application
+2) Client.java in the client folder
+
+   This program should be executed to create a multiple client sockets
+   If the appilcation has to create 5 client sockets, then this program has to be executed 5 times
+
+   Procedure to run the server program
+
+   cd  source/server
+   javac server.java
+   java server<port no>
+
+   Procedure to run the client program
+
+   Cd source/client
+   Javac client.java
+   Java client <IP Address><Port no><username>
+

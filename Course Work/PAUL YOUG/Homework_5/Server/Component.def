@@ -1,0 +1,6 @@
+; Component.def
+; Component module-definition file
+LIBRARY Component.dll
+DESCRIPTION 'Components windows dynamik library'
+EXPORTS ; Explicit exports can go here
+CreateInstance @1 PRIVATE

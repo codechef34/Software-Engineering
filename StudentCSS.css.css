@@ -1,0 +1,36 @@
+#content { 
+background-image: url("uca.jpg"); 
+}
+
+#container { 
+width: 980px; 
+min-height: 100%; 
+position: relative; 
+margin-left: auto; 
+margin-right: auto; 
+margin-top: -8px;
+}
+
+#header {
+width: 980px; 
+height: 100px; 
+position: relative;
+}
+
+#body {
+position: relative;
+width: 980px; 
+height: 500px; 
+}
+
+#footer {
+position: relative; 
+width: 980px; 
+height: 15px; 
+margin-left: auto; 
+margin-right: auto; 
+margin-top: -8px; 
+background-color: white; 
+padding-top: 10px; 
+}
+

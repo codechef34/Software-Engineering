@@ -1,0 +1,9 @@
+
+// Count.idl
+module Counter
+{
+interface Count
+{ attribute long sum;
+long increment();
+};
+};
